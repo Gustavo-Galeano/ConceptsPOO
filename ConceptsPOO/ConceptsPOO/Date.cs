@@ -74,7 +74,7 @@ namespace ConceptsPOO
         }
 
         public override string ToString()
-        {
+        { 
             return $"{_year}/{_month:00}/{_day:00}";
 
         }
