@@ -13,6 +13,7 @@
       <HashCode>AAACAEAAAAAAAAAEEAAQAAQAAAAAAAAIAAAAAAAAAAg=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ConceptsPOO.SalaryEmployee">
     <Position X="4.5" Y="1" Width="1.5" />
@@ -21,13 +22,12 @@
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ConceptsPOO.ComissionEmployee" Collapsed="true">
-    <Position X="4.5" Y="3.25" Width="2" />
+  <Class Name="ConceptsPOO.ComissionEmployee">
+    <Position X="2" Y="4" Width="2" />
     <InheritanceLine Type="ConceptsPOO.Employee" ManuallyRouted="true" FixedToPoint="true">
       <Path>
         <Point X="3" Y="3.209" />
-        <Point X="3" Y="3.625" />
-        <Point X="4.5" Y="3.625" />
+        <Point X="3" Y="4" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -35,5 +35,19 @@
       <FileName>ComissionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="ConceptsPOO.BaseCommissionEmployee">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAQAA=</HashCode>
+      <FileName>BaseCommissionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ConceptsPOO.IPay">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
